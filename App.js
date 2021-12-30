@@ -61,7 +61,9 @@ const Section = ({children, title}): Node => {
   );
 };
 
-const App: () => Node = () => {
+const App: () => Node = (props) => {
+
+  Alert.alert(JSON.stringify(props));
 
   const isDarkMode = useColorScheme() === 'dark';
   
@@ -83,6 +85,12 @@ const App: () => Node = () => {
  useEffect(() => {
     this.checkPermission();
     CleverTap.recordEvent('Page Loaded');
+
+
+    
+    
+  
+
 
     CleverTap.addListener(CleverTap.CleverTapPushNotificationClicked, (event) => {
         _handleCleverTapEvent(CleverTap.CleverTapPushNotificationClicked, event);
@@ -121,7 +129,8 @@ checkPermission = async () => {
 
   function _handleCleverTapEvent(eventName, event) {
     console.log('handleCleverTapEvent', eventName, event);
-    ToastAndroid.show('${eventName} called!', ToastAndroid.SHORT);
+    // ToastAndroid.show('${eventName} called!', ToastAndroid.SHORT);
+    Alert.alert(JSON.stringify(event));
     }
 
   return (
