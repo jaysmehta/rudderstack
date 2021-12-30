@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>154889865123-6et7l8moad6hi9v7gogf7dfgl5c2lrnn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.154889865123-6et7l8moad6hi9v7gogf7dfgl5c2lrnn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAgyc2yqMoLCg4YroCWLFQLyiGiavN2kO0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>154889865123</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.CleveerTapRudderStack</string>
+	<key>PROJECT_ID</key>
+	<string>clevertapreactnativetutorial2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>clevertapreactnativetutorial2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:154889865123:ios:752d2753728fc8d6a4bc16</string>
+	<key>DATABASE_URL</key>
+	<string>https://clevertapreactnativetutorial2.firebaseio.com</string>
+</dict>
+</plist>
